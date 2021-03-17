@@ -12,9 +12,9 @@ Dificuldade: Principiante
 
 nome = input("Digite o seu nome: ")
 
-if nome[0] == 'A':
+if nome[0].title() == 'A':
     print("\nA de Amor.")
-elif nome[0] == 'B':
+elif nome[0].title() == 'B':
     print("\nB de Baixinho.")
 else:
     print("\nSeu nome não é legal.")
