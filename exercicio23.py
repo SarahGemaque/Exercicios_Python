@@ -79,11 +79,11 @@ while(cond):
     else:
         continue
 if placar_jog > placar_comp:
-	print("\nVocê venceu.")
+    print("\nVocê venceu.")
 elif placar_comp > placar_jog:
-	print("\nVocê perdeu.")
+    print("\nVocê perdeu.")
 else:
-	print("\nO jogo terminou em empate.")
+    print("\nO jogo terminou em empate.")
    
         
 
